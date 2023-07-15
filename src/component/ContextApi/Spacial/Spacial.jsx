@@ -2,11 +2,11 @@ import React, { useContext } from 'react';
 import { RingContext } from '../GrandFa/GrandFa';
 
 const Spacial = () => {
-    const gift = useContext(RingContext);
+    const ring = useContext(RingContext);
     return (
         <div>
             <h4>Spacial</h4>
-            <p>Ring: <small>{gift[1]}</small> </p>
+            <p>Ring: <small>{ring[1]}</small> </p>
         </div>
     );
 };
