@@ -1,0 +1,8 @@
+.grandfa div{
+    border: 2px solid palevioletred;
+    padding: 10px;
+    margin: 20px;
+}
+.flex{
+    display: flex;
+}

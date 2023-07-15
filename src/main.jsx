@@ -11,6 +11,7 @@ import Home from './component/Home/Home.jsx'
 import OrderReview from './component/OrderReview/OrderReview.jsx';
 import About from './component/About/About.jsx';
 import Contact from './component/Contact/Contact.jsx';
+import GrandFa from './component/ContextApi/GrandFa/GrandFa.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/grandfa',
+        element: <GrandFa></GrandFa>
       }
     ]
   },
